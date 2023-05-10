@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+.full-logo {
+  width: 120px;
+}
+
+ h2 {
+  font-weight: 600;
+}
+h3 {
+  font-weight: 700;
+}
+
+.wraper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.prim {
+  color:  #ff8800;
+}
+.primary-bcg {
+  background-color:  #ff8800;
+  color: white;
+}
+
+.footer {
+  background-color: rgb(236, 236, 236);
+  color:#190B44;
+}
+
+.btn:hover {
+  background-color: #190B44;
+  color: white;
+}
+
+.item {
+padding: 0 4% ;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.features li {
+  position: relative;
+  padding-left: 30px; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+ul.features li::before {
+  content: "•"; /* Bullet symbol or content */
+  position: absolute;
+  color: orange;
+  left: 0;
+  top: 50%;
+  transform: translateY(-55%);
+  font-size: 40px; /* Adjust bullet size as needed */
+}
+
+@media (max-width: 575.98px) {
+  .full-logo {
+    display: none;
+  }
+  .hero-image {
+    display: none;
+  }
+  .short-logo {
+    display: inline-block;
+  }
+}
+/* Small Devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .full-logo {
+    display: none;
+  }
+
+  .hero-image {
+    display: none;
+  }
+  .short-logo {
+    display: inline-block;
+  }
+}
+/* Medium Devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .full-logo {
+    display: inline-block;
+  }
+  .box {
+    margin-bottom: 15px;
+  }
+  .hero-image {
+    display: none;
+  }
+  .short-logo {
+    display: none;
+  }
+}
+/* Large Devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .full-logo {
+    display: inline-block;
+  }
+
+  .short-logo {
+    display: none;
+  }
+}
+/* Extra Large Devices (large desktops) */
+@media (min-width: 1200px) {
+  .full-logo {
+    display: inline-block;
+  }
+
+  .short-logo {
+    display: none;
+  }
+}
