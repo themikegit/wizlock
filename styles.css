@@ -5,9 +5,15 @@ body {
   font-family: 'Noto Sans', sans-serif;
 
 }
+.hero-content {
+  max-width: 580px;
+}
 
 .full-logo {
   width: 120px;
+}
+.hero-logo img{
+  width: 220px;
 }
 
  h2 {
