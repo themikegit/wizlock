@@ -94,6 +94,12 @@ ul.features li::before {
     display: inline-block;
   }
 }
+
+.custom-box {
+  border: 1px solid #ff8800;
+  border-radius: 5px;
+  padding: 8%;
+}
 /* Medium Devices (tablets) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .full-logo {
