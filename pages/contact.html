@@ -86,97 +86,109 @@
     <div class="wraper">
       <div style="height: 75vh" class="container my-5">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-            <div>
-              <div class="mb-2">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Title</label
-                >
-                <input
-                  type="name"
-                  class="form-control"
-                  id="name"
-                  placeholder="Jhon Smith"
-                />
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+            <form id="form" action="">
+              <div class="row">
+                <div class="mb-2 col-12 col-sm-12 col-md-12 col-lg-12">
+                  <label for="title" class="form-label">Title</label>
+                  <input
+                    type="text"
+                    required
+                    class="form-control"
+                    id="title"
+                    placeholder="Your message title"
+                  />
+                </div>
+                <div class="mb-2 col-12 col-sm-12 col-md-6 col-lg-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="f_name"
+                    placeholder="Jhon"
+                  />
+                </div>
+                <div class="mb-2 col-12 col-sm-12 col-md-6 col-lg-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    required
+                    id="l_name"
+                    placeholder=" Smith"
+                  />
+                </div>
+                <div class="mb-2 col-12 col-sm-12 col-md-6 col-lg-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Phone</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    required
+                    id="phone"
+                    placeholder="00 000 987"
+                  />
+                </div>
+                <div class="mb-2 col-12 col-sm-12 col-md-6 col-lg-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    required
+                    id="email"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-2 col-12 col-sm-12 col-md-6 col-lg-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Country</label
+                  >
+                  <input
+                    type="name"
+                    class="form-control"
+                    required
+                    id="name"
+                    placeholder="Country Name"
+                  />
+                </div>
+                <div class="mb-2 col-12 col-sm-12 col-md-6 col-lg-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Company</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="company"
+                    placeholder="Company Name"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="7"
+                  ></textarea>
+                </div>
               </div>
-              <div class="mb-2">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >First Name</label
-                >
-                <input
-                  type="name"
-                  class="form-control"
-                  id="name"
-                  placeholder="Jhon Smith"
-                />
-              </div>
-              <div class="mb-2">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Last Name</label
-                >
-                <input
-                  type="name"
-                  class="form-control"
-                  id="name"
-                  placeholder="Jhon Smith"
-                />
-              </div>
-              <div class="mb-2">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Phone</label
-                >
-                <input
-                  type="name"
-                  class="form-control"
-                  id="phoen"
-                  placeholder="00 000 987"
-                />
-              </div>
-              <div class="mb-2">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Email address</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="name@example.com"
-                />
-              </div>
-              <div class="mb-2">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Country</label
-                >
-                <input
-                  type="name"
-                  class="form-control"
-                  id="name"
-                  placeholder="Jhon Smith"
-                />
-              </div>
-              <div class="mb-2">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Company</label
-                >
-                <input
-                  type="name"
-                  class="form-control"
-                  id="name"
-                  placeholder="Jhon Smith"
-                />
-              </div>
-              <div class="mb-2">
-                <label for="exampleFormControlTextarea1" class="form-label"
-                  >Message</label
-                >
-                <textarea class="form-control" id="message" rows="3"></textarea>
-              </div>
-            </div>
+              <button type="submit" class="btn btn-primary w-100 primary-bcg">
+                Submit
+              </button>
+            </form>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4">
             <img
               src="../assets/mail.svg"
-              style="width: 220px; margin-bottom: 15px"
+              style="width: 280px; margin-bottom: 15px"
               class="img-fluid"
               alt="..."
             />
@@ -251,7 +263,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <script src="main.js"></script>
+    <script src="../main.js"></script>
   </body>
 </html>
 
